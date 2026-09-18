@@ -1,0 +1,108 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  background-color: darkred;
+  
+}
+header{
+   text-align: center; 
+   margin: 10px;
+ padding:18px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, purple,red)
+   }
+  nav { 
+      display: flex; 
+      justify-content: center; 
+      gap: 15px; margin: 20px; 
+      flex-wrap: wrap; 
+      
+  }
+nav a { 
+     color: black;
+    text-decoration: none;
+     background: white;
+     padding: 12px 25px;
+     border-radius: 25px;
+     font-weight: bold;
+     transition: 0.3s;
+     } 
+          
+    nav a:hover {
+     background: red;
+     transform: scale(1.08);
+     box-shadow: 0 0 15px red; 
+             
+    }
+main{
+ text-align: center;
+margin: 20px;
+padding: 20px;
+padding:18px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+footer{
+text-align: center;
+color: white;
+
+}
+.friend{
+    display: flex;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+    padding:18px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, purple,red)
+}
+.friend img{
+    width: 220px;
+    height: 180px;
+ padding-top: 100px;
+}
+.friend_text{
+    display: flex;
+    flex-direction: column;
+     padding:18px;
+}
+.cat{
+    margin: 10px;
+ padding:18px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, purple,red)   
+}
+
+.cat_photo {
+    display: flex;
+    justify-content: space-evenly;
+}
+.cat_photo img {
+    width: 200px;
+border-radius: 10px;
+}
+.decoration{
+   margin: 10px;
+ padding:18px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, purple,red)    
+}
